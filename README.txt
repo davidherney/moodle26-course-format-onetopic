@@ -14,6 +14,9 @@ Information in: http://aprendeenlinea.udea.edu.co/lms/investigacion/course/view.
 
 IN VERSION
 =============
+2014012003:
+Fixed language -en- error and fixed double visualization of topic 0 when all topics are hidden
+
 2014012002:
 Fixed visualization of hidden/unavailable topics/tabs. Fixed with Mike Grant help.
 Added "Disable/enable asynchronous edit functions" in order to make it possible to move the resources between tabs.
