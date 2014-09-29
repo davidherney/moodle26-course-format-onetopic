@@ -33,7 +33,7 @@ $string['hidetabsbar'] = 'Hide tabs bar';
 $string['hidetabsbar_help'] = 'Hide tabs bar in the course page. The navigation is with the sections navbar.';
 
 $string['movesectionto'] = 'Move current topic';
-$string['movesectionto_help'] = 'Move current topic to left/rigth of selected topic';
+$string['movesectionto_help'] = 'Move current topic to left/right of selected topic';
 
 $string['utilities'] = 'Tabs edition utilities';
 $string['disableajax'] = 'Asynchronous edit actions';

@@ -318,20 +318,22 @@ class format_onetopic_renderer extends format_section_renderer_base {
         }
         else {
 
-            // Now the list of sections..
-            echo $this->start_section_list();
+            if ($course->realcoursedisplay != COURSE_DISPLAY_MULTIPAGE || $displaysection !== 0) {
+                // Now the list of sections..
+                echo $this->start_section_list();
 
-            // The requested section page.
-            $thissection = $sections[$displaysection];
-            echo $this->section_header($thissection, $course, true);
-            // Show completion help icon.
-            $completioninfo = new completion_info($course);
-            echo $completioninfo->display_help_icon();
+                // The requested section page.
+                $thissection = $sections[$displaysection];
+                echo $this->section_header($thissection, $course, true);
+                // Show completion help icon.
+                $completioninfo = new completion_info($course);
+                echo $completioninfo->display_help_icon();
 
-            echo $this->courserenderer->course_section_cm_list($course, $thissection, $displaysection);
-            echo $this->courserenderer->course_section_add_cm_control($course, $displaysection, $displaysection);
-            echo $this->section_footer();
-            echo $this->end_section_list();
+                echo $this->courserenderer->course_section_cm_list($course, $thissection, $displaysection);
+                echo $this->courserenderer->course_section_add_cm_control($course, $displaysection, $displaysection);
+                echo $this->section_footer();
+                echo $this->end_section_list();
+            }
         }
 
         // Display section bottom navigation.
