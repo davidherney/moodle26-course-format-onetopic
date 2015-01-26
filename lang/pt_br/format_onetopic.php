@@ -14,7 +14,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'format_onetopic', language 'en', branch 'MOODLE_24_STABLE'
+ * Strings for component 'format_onetopic', language 'pt_br', branch 'MOODLE_24_STABLE'
  *
  * @since 2.4
  * @package contribution
